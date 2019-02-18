@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Heebo:100|Open+Sans+Condensed:300" >
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <title>Survey Form - FreeCode Camp | Responsive Web Design</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <h1 id="title">Interest Form</h1>
+
+    <p id="description">Sign up to receive more information about a specific program.</p>
+
+    <form id="survey-form">
+    
+    <div class="row">
+       <label for="name" id="name-label">Name</label>
+        <input id="name" type="text" required placeholder="First & Last Name">
+    </div>
+            
+    <div class="row">
+        <label for="email" id="email-label">Email</label>
+        <input id="email" type="email" required placeholder="Email (joe@domain.com)">
+        <!--INCLUDE ERROR IF INPUT IS INCORRECT -->
+    </div>
+
+    <div class="row">
+        <label for="number" id="number-label">Phone Number</label>
+        <input id="number" type="number" min="10" max="10" placeholder="1234567890">
+        <!-- INCLUDE ERROR IF INPUT IS INCORRECT 
+            INCLUDE ERROR IF NUMBER IS OUTSIDE OF MIN/MAX ATTRIBUTES-->
+    </div>
+
+    <div class="row">
+        <label for="category">Choose category</label>
+            <select id = "dropdown">
+                <option value = "current hs">current high school student</option>
+                <option value = "school college counselor">school college counselor</option>
+                <option value = "parent of hs">parent/guardian of a high school student</option>
+            </select>
+    </div>
+
+    <div class="row">
+        <label for="program-type">Choose Program of Interest</label><br>
+        <input type="checkbox" name="program-type" value="humanities"> Humanities/Social Sciences<br>
+        <input type="checkbox" name="program-type" value="stem"> STEM<br>
+        <input type="checkbox" name="program-type" value="arts"> Studio and Performance Arts
+    </div>
+    
+    <div class="row">
+       <label for="comms">Receive emails?</label><br>
+        <input type="radio" name="comms" value="yes"> Yes, opt me in for emails<br>
+        <input type="radio" name="comms" value="no"> No, not at this time
+
+    </div>
+    
+    <div class="row">
+        <div>
+            <label for="comments">Additional comments:</label>
+        </div>
+        <div>
+            <textarea id="optional-comments" name="comments" rows="10"></textarea>
+        </div> 
+    </div>
+
+    <div class="row">
+        <button id="submit" type="submit">Submit Response</button>
+    </div>
+
+    </form>
+
+</div>
+</body>
+
+</html>

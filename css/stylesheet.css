@@ -1,0 +1,58 @@
+*, *:before, *:after {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* add breathing room to the form */
+.container {
+    float: left;
+    margin-left: 10%;
+}
+
+/* style additional comments box */
+textarea {
+    width: 600px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    resize: vertical;
+}
+
+label, input, textarea {
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* add padding to text input areas*/
+input,
+select,
+textarea {
+    border-radius: 3px;
+    padding: 3px;
+}
+
+/*submit button color */
+button {
+    background-color: green;
+    padding: 10px;
+    margin-top: 5%;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: greenyellow;
+    padding: 10px;
+    margin-top: 5%;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+}
