@@ -5,10 +5,10 @@ The objective of this project was to build a survey form in CodePen.io similar i
 The empahsis on this project was to test CSS and HTML skills, as covered in the curriculum.
 
 ## TOC
-[How to Use](#how-to-use)
-[Resources](#resources)
-[Dependencies](#dependencies)
-[Project Requirements](#project-requirements)
+- [How to Use](#how-to-use)
+- [Resources](#resources)
+- [Dependencies](#dependencies)
+- [Project Requirements](#project-requirements)
 
 ## How to Use
 
